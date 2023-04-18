@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Welcome1"
+    android:layout_marginHorizontal="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="🖐️Добро пожаловать!"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Войдите, чтобы пользоваться функциями приложения"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Вход по E-mail" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="#EBEBEB"
+        android:hint="example@mail.ru"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="35dp"
+        android:radius="10dp"
+        android:text="Далее"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="#C9D4FB"
+
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Или войдите с помощью"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:radius="10dp"
+        android:text="Войти с Яндекс"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:backgroundTint="#FFFFFF"
+
+        app:cornerRadius="10dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

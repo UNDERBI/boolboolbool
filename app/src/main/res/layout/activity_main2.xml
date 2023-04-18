@@ -19,12 +19,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:paddingRight="60dp"
+            android:paddingRight="50dp"
             android:text="Пропустить"
+            android:layout_weight="1"
             android:textColor="#2196F3"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="onClick"
+            />
 
         <ImageView
             android:id="@+id/imageView"
